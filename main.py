@@ -11,7 +11,7 @@ from openai import OpenAI
 app = Flask(__name__)
 
 # =========================
-# CONFIG (ENV ONLY - SECURE)
+# CONFIG 
 # =========================
 
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
